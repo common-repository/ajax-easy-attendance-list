@@ -1,0 +1,5 @@
+div.jquery-ajax-loader {
+	background: #fff;
+	opacity: .4;
+	z-index:40;
+}

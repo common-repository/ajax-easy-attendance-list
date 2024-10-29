@@ -1,0 +1,186 @@
+.ealist_next {  /* Big date on top of list */
+font-size:30px;
+font-weight:bold;
+}
+
+input.ealist_input {  /* Input field */
+font-family: Verdana, Arial, Helvetica, sans-serif !important;
+color:#555 !important;
+font-size:10px !important;
+border:none;
+border-top: 1px dotted #bbbbbb;
+border-bottom: 1px dotted #bbb;
+background-color:#EEEEEE;
+height:16px !important;
+width:60%;
+padding:3px !important;
+line-height: 10px !important;
+}
+
+.ealist_div_0_1,.ealist_div_1_1 {		/* DIV for yes */
+font-family: Verdana, Arial, Helvetica, sans-serif !important;
+font-size:12px !important;
+cursor:pointer !important;
+cursor:hand !important;
+border:0 !important;
+background-repeat:repeat-y !important;
+text-align:left !important;
+padding:5px !important;
+padding-left:10px !important;
+list-style: none !important;
+margin:0 !important;
+height:20px;
+margin-bottom:0 !important;
+}
+
+.ealist_div_0_1:hover, .ealist_div_1_1:hover, .ealist_div_0_0:hover, .ealist_div_1_0:hover {
+	background-image:url(../img/sbRowBg.gif) !important;
+}
+
+.ealist_div_1_1 {	
+background-color:white !important;
+background-image:url(../img/bg1_4.jpg) !important;
+background-repeat:repeat-x !important;
+}
+
+.ealist_div_0_1 {	
+background-image:url(../img/bg1_2.jpg) !important;
+background-repeat:repeat-x !important;
+}
+
+.ealist_div_0_0 , .ealist_div_1_0 {		/* DIV for no */
+font-family: Verdana, Arial, Helvetica, sans-serif !important;
+font-size:12px !important;
+cursor:pointer !important;
+cursor:hand !important;
+border:0 !important;
+text-align:left !important;
+padding:5px !important;
+padding-left:10px !important;
+list-style: none !important;
+margin:0 !important;
+height:20px;
+margin-bottom:0 !important;
+}
+
+.ealist_div_1_0  {
+background-image:url(../img/bg2_4.jpg) !important;
+background-repeat:repeat-x !important;
+background-color:white !important;
+}
+
+.ealist_div_0_0  {
+background-image:url(../img/bg2_2.jpg) !important;
+background-repeat:repeat-x !important;
+/* background-color:#edcecc !important; */
+}
+
+.ealist_ul {
+list-style-type: none !important;
+margin:0 !important;
+padding:0 !important;
+border:1px solid #ccc !important;
+}
+
+
+.ealist_result {		/* Shows the voted image */
+	float:right !important;
+	text-align:right !important;
+	cursor:default;
+	padding-right:4px !important;
+	padding-top:2px !important;
+}
+
+.ealist_vote{		/* DIV for the voting buttons */
+	float:right !important;
+	text-align:right !important;
+	padding-right:4px !important;
+	padding-top:2px !important;
+}
+
+.ealist_yes, .ealist_no {		/* yes and no Buttons */
+margin-left:10px !important;
+cursor:pointer;
+cursor:hand;
+}
+
+.ealist_message {			/* DIV for the messages */
+position:absolute;
+padding:3px !important;
+padding-top:4px !important;
+background-color:#EDCECC !important;
+background-image:url(../img/bg2_4.jpg) !important;
+height:22px !important;
+border: 1px solid #8b0000 !important;
+color: #8b0000 !important;
+font-family: Verdana, Arial, Helvetica, sans-serif !important;
+font-size:15px !important;
+z-index: 100;
+text-align:center !important;
+}
+
+.ealist_voting {
+padding:3px !important;
+padding-left:3px !important;
+text-align:left !important;
+position:relative;
+}
+
+#ealist_voting_buttons {
+text-align:right !important;
+float:right !important;
+padding:3px !important;
+}
+
+.ealist_voting_space {		/* DIV space for the input and message area */
+position:relative;
+height:32px !important;
+text-align:left !important;
+}
+
+.ealist_vote  a {
+padding-left:10px !important;
+}
+
+#ealist_list_content {
+    position:aboslute;
+	z-index:50;
+}
+
+.ealist_item {   /* IE6 hack */
+	float:left !important;
+	height:20px !important;
+}
+
+.ealist_ul li[id] {	/* IE6 hack */
+height:20px;
+}
+
+.ealist_facebook {
+margin-top:4px !important;
+text-align:left !important;
+cursor:pointer !important;
+cursor:hand !important;
+}
+
+.ealist_facebook_div {
+float:left;
+}
+
+.fb_profile_pic2 {
+	display:none;
+}
+
+.fb_profile_pic2[src]{
+display:block;
+float:left !important;
+margin-top:-5px !important;
+margin-left:-10px !important;
+height:30px !important;
+}
+
+.ealist_ul img, .ealist_voting_space img  {
+	padding:0 !important;
+	border:0 !important;
+	background:none !important;
+}
